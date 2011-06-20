@@ -1,0 +1,6 @@
+Transforms given XML data file according given XSL transformation file and renders it in a DOM element with given ID. Uses jQuery.
+
+As simple as:
+
+var cp = new XMLTransformer();
+cp.render("/data/data.xml","/templates/template01.xsl","content");
